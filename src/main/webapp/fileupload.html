@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		/* From Uiverse.io by guilhermeyohan */ 
+		.container {
+		  max-width: 300px;
+		  margin: 0 auto;
+		  padding: 20px;
+		  background-color: #13121269;
+		  border-radius: 5px;
+		}
+		
+		label {
+		  font-weight: bold;
+		  display: block;
+		  margin-bottom: 10px;
+		}
+		
+		.inpdddut[type="file"] {
+		  padding: 10px;
+		  margin-bottom: 20px;
+		  border: none;
+		  background-color: #1aa3bb;
+		  border-radius: 5px;
+		  width: 100%;
+		  cursor: pointer;
+		}
+		
+		.inpdddut[type="submit"] {
+		  padding: 10px 20px;
+		  background-color: #008CBA;
+		  color: #fff;
+		  border: none;
+		  border-radius: 5px;
+		  cursor: pointer;
+		}
+		
+		.inpdddut[type="submit"]:hover {
+		  background-color: #006F8F;
+		}
+    
+	</style>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- From Uiverse.io by guilhermeyohan -->
+	<div class="container">
+		<form method="POST" action="https://gomouat.saraswatbank.com/exchange/upload" enctype="multipart/form-data">
+			<label for="file">Choose a file:</label> 
+			<input class="inpdddut" name="file" id="file" type="file">
+    		<button type="submit" class="inpdddut">Send</button>
+		</form>
+	</div>
+</body>
+</html>
